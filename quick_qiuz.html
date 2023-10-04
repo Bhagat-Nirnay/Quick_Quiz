@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quick Quiz</title>
+</head>
+
+<body>
+    <!-- Quick Quiz:
+    Without using br tag, write a vertically aligned form asking for name, city, and pincode of a user. -->
+
+    <form action="backend.php">
+        <!-- Username -->
+        <div>
+            <label for="username">Enter your Username: </label>
+            <input type="text" name="username" id="username" placeholder="Enter Your Name...">
+        </div>
+
+        <!-- City -->
+        <div>
+            <label for="city">Enter your City: </label>
+            <input type="text" name="city" id="city" placeholder="Enter Your City...">
+        </div>
+
+        <!-- Pincode -->
+        <div>
+            <label for="pincode">Enter your Pincode: </label>
+            <input type="text" name="pincode" id="pincode" placeholder="Enter Your pincode...">
+        </div>
+
+        <!-- Submit -->
+        <div>
+            <input type="submit" value="Submit">
+        </div>
+    </form>
+</body>
+
+</html>
