@@ -1,28 +1,28 @@
-<mxfile host="app.diagrams.net" modified="2023-11-02T20:52:25.318Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="WhDOPoouQpPUQ_SKZgZ9" version="22.0.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-03T19:30:17.128Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="BlKXk4wDo3_L6GgUQqmU" version="22.0.8" type="github">
   <diagram name="Page-1" id="xcF5DvWHBjND3UbTPEwR">
-    <mxGraphModel dx="780" dy="1494" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="891" dy="1583" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="tiPk1HtgNAQLXbUQR-4Q-1" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#99FF99;" vertex="1" parent="1">
+        <mxCell id="tiPk1HtgNAQLXbUQR-4Q-1" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#99FF99;" parent="1" vertex="1">
           <mxGeometry x="190" y="-400" width="490" height="440" as="geometry" />
         </mxCell>
-        <mxCell id="tiPk1HtgNAQLXbUQR-4Q-2" value="Nav Bar (Sticky)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#2145FC;strokeColor=#1128BF;" vertex="1" parent="1">
+        <mxCell id="tiPk1HtgNAQLXbUQR-4Q-2" value="Nav Bar (Sticky)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#2145FC;strokeColor=#1128BF;" parent="1" vertex="1">
           <mxGeometry x="190" y="-400" width="490" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="tiPk1HtgNAQLXbUQR-4Q-4" value="" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#00FFFF;" vertex="1" parent="1">
+        <mxCell id="tiPk1HtgNAQLXbUQR-4Q-4" value="" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#00FFFF;" parent="1" vertex="1">
           <mxGeometry x="210" y="-330" width="190" height="190" as="geometry" />
         </mxCell>
-        <mxCell id="tiPk1HtgNAQLXbUQR-4Q-6" value="" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#CCCC00;" vertex="1" parent="1">
+        <mxCell id="tiPk1HtgNAQLXbUQR-4Q-6" value="" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#CCCC00;" parent="1" vertex="1">
           <mxGeometry x="470" y="-330" width="190" height="190" as="geometry" />
         </mxCell>
-        <mxCell id="tiPk1HtgNAQLXbUQR-4Q-7" value="Footer" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF2200;" vertex="1" parent="1">
+        <mxCell id="tiPk1HtgNAQLXbUQR-4Q-7" value="Footer" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF2200;" parent="1" vertex="1">
           <mxGeometry x="190" y="-10" width="490" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="tiPk1HtgNAQLXbUQR-4Q-8" value="Icon chipka hua hona chahiye" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+        <mxCell id="tiPk1HtgNAQLXbUQR-4Q-8" value="Icon chipka hua hona chahiye" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
           <mxGeometry x="630" y="-140" width="50" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="tiPk1HtgNAQLXbUQR-4Q-9" value="Welcome To This Sigma Web Development Express" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="tiPk1HtgNAQLXbUQR-4Q-9" value="Welcome To This Sigma Web Development Express" style="rounded=1;whiteSpace=wrap;html=1;arcSize=26;" parent="1" vertex="1">
           <mxGeometry x="323.75" y="-120" width="222.5" height="80" as="geometry" />
         </mxCell>
       </root>
