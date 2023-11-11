@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>More on CSS Selectors</title>
+    <style>
+        /* .box:first-child{
+            background-color: red;
+        } */
+        /* .box::first-line{
+            color: yellow;
+        } */
+
+        /* .boxes *{
+            color:darkgreen;
+             border: 2px solid black;
+        } */
+
+        /* [data-color="primary"]{
+            margin-top: 50px;
+            padding-top: 50px;
+        } */
+       
+        /* grouing of selectors 
+        p, a, .box, [data-color="primary"]{
+            margin-top: 50px;
+            padding-top: 50px;
+        } */
+
+
+        /* For selecting even numbers of elements
+        .box:nth-child(even){
+            background-color: deepskyblue;
+        } */
+        
+        /* For selecting odd numbers of elements */
+        /* .box:nth-child(odd){
+            background-color: deepskyblue;
+        } */
+
+        /* Neeche se elemts ko select karne ke iss syntax ka use karte hain */
+        /* .box:nth-last-child(1){
+            background-color:darkcyan;
+        } */
+
+        /* We can insert dynamically anything using css instead of creating an extra element for that particular content. These are called as Pseudo Elements not Selectors */
+        .boxes::before{
+            content: "Hello I'm Nirnay";
+            color: red;
+        }
+        .boxes::after{
+            content: "Nirnay is Good";
+            color: blue;
+        }
+
+        /* Kisi bhi letter ya object ko website pe select kiya jo default blue color aata use hum css ki iss element se change kar sakte hain */
+        ::selection{
+            color: deeppink;
+            background-color: black;
+        }
+
+        .box::first-letter{
+            color: indigo;            
+            font-size: 30px;
+            
+        }
+
+        input::placeholder{
+            color: rgb(1, 182, 91);
+            background-color: #6c0261;
+        }
+
+        
+        /* .box2{
+            ye sirf class ke liye test tha 
+            margin: 50px;
+            padding-top: 45px;
+        } */
+    </style>
+</head>
+<body>
+    <div class="boxes">
+        <!-- Sirf 1st waale main hi padding lagi kyunki 1st wale ka hi data-color primary tha -->
+        <div data-color="primary" class="box">I am Fisrt Box</div>
+        <div class="box box2">Hey I am Box</div>
+        <div class="box">Hey I am Box</div>
+        <input type="text" placeholder="Type your name here"> <br>
+    </div>
+</body>
+</html>
